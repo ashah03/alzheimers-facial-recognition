@@ -1,0 +1,90 @@
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <dependencies>
+  	<dependency>
+  		<groupId>org.openimaj</groupId>
+  		<artifactId>image-processing</artifactId>
+ 		<version>1.3.1</version>
+  		<scope>compile</scope>
+  	</dependency>
+  	<dependency>
+    	<groupId>org.openimaj</groupId>
+    	<artifactId>core</artifactId>
+    	<version>1.3.1</version>
+    	<scope>compile</scope>
+	</dependency>
+	<dependency>
+    	<groupId>org.openimaj</groupId>
+    	<artifactId>faces</artifactId>
+    	<version>1.3.1</version>
+    	<scope>compile</scope>
+	</dependency>
+	<dependency>
+		<groupId>com.github.sarxos</groupId>
+		<artifactId>webcam-capture</artifactId>
+		<version>0.3.10</version>
+	</dependency>
+
+     <dependency>
+	<groupId>com.github.jai-imageio</groupId>
+	<artifactId>jai-imageio-core</artifactId>
+	<version>1.3.0</version>
+</dependency>
+<dependency>
+<groupId>jmagick</groupId>
+<artifactId>jmagick</artifactId>
+<version>6.6.9</version>
+</dependency>
+  <dependency>
+    <groupId>org.imgscalr</groupId>
+    <artifactId>imgscalr-lib</artifactId>
+    <version>4.2</version>
+    <type>jar</type>
+    <scope>compile</scope>
+  </dependency>
+  <dependency>
+<groupId>org.im4java</groupId>
+<artifactId>im4java</artifactId>
+<version>1.4.0</version>
+<type>jar</type>
+</dependency>
+  </dependencies>
+  <repositories>
+    <repository>
+        <id>OpenIMAJ maven releases repository</id>
+        <url>http://maven.openimaj.org</url>
+    </repository>
+        <repository>
+        <id>OpenIMAJ maven snapshots repository</id>
+        <url>http://snapshots.openimaj.org</url>
+    </repository>
+    <repository>
+    	<id>Sonatype OSS Snapshot repository</id>
+    	<url>http://oss.sonatype.org/content/repositories/snapshots</url>
+    </repository>
+    <repository>
+    	<id>jMagick</id>
+    	<url> http://repo1.maven.org/maven2/jmagick/jmagick/6.6.9/</url>
+    </repository>
+ <repository>
+    <id>bintray-jai-imageio</id>
+    <name>jai-imageio at bintray</name>
+    <url>https://dl.bintray.com/jai-imageio/maven/</url>
+    <snapshots>
+      <enabled>false</enabled>
+    </snapshots>
+  </repository>
+  <repository>
+    <id>The Buzz Media Maven Repository</id>
+    <url>http://maven.thebuzzmedia.com</url>
+  </repository>
+  <repository>
+    <id>cedarsoft-thirdparty</id>
+    <url>http://maven.cedarsoft.com/content/repositories/thirdparty/</url>
+  </repository>
+</repositories>
+  <groupId>shah.adit.Facial-Recognition</groupId>
+  <artifactId>Facial-Recognition</artifactId>
+  <version>1.0.0</version>
+</project>
